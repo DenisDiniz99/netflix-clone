@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="./img/logo.ico">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="./style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./style/owl/owl.theme.default.min.css">
+    
+    <title>Netflix - Clone</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">Netflix</h2>
+            <nav>
+                <a href="#" id="inicio" title="Início" onclick="alerta(id)">Início</a>
+                <a href="#" id="serie" title="Series" onclick="alerta(id)">Séries</a>
+                <a href="#" id="filme" title="Filmes" onclick="alerta(id)">Filmes</a>
+                <a href="#" id="doc" title="Documentarios" onclick="alerta(id)">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Frontier</h3>
+                <p>Decidido a restaurar o monopólio do comércio de peles da Hudson Bay Company, 
+                    Lord Benton viaja para o Novo Mundo para exterminar o caçador Daclan Harp.
+                </p>
+                <div class="botoes">
+                    <a href="https://bit.ly/3n4h607" target="_blank"> 
+                        <button role="button" class="botao-play">
+                            <li class="fas fa-play"></li>
+                            ASSISTIR AGORA
+                        </button>
+                    </a>
+                    <a href="https://bit.ly/3BVk0e3" target="_blank">
+                        <button role="button" class="botao-info">
+                            <li class="fa fa-info-circle"></li>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+   <!--Carrosel de exibição de filmes: Em alta-->
+   <div class="carrosel-titulo-row">
+        <p class="carrosel-titulo">Em alta</p>
+   </div>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="https://bit.ly/3C0E4eQ" target="_blank">
+                    <img class="box-filme" src="./img/filmes/minF1.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3vqrenP" target="_blank">
+                    <img class="box-filme" src="./img/series/minS1.jpg">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3AW9Vw5" target="_blank">
+                    <img class="box-filme" src="./img/series/minS7.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/2YXxgjD" target="_blank">
+                    <img class="box-filme" src="./img/filmes/minF3.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3DZ3n1M" target="_blank">
+                    <img class="box-filme" src="./img/filmes/minF5.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3lS9Chw" target="_blank">
+                    <img class="box-filme" src="./img/filmes/minF8.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3nbwx6K" target="_blank">
+                    <img class="box-filme" src="./img/series/minS9.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3DMZwoi" target="_blank">
+                    <img class="box-filme" src="./img/series/minS4.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3BSMsNw" target="_blank">
+                    <img class="box-filme" src="./img/filmes/minF10.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3pwQhVx" target="_blank">
+                    <img class="box-filme" src="./img/series/minS2.jpg" alt="" srcset="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--Carrosel de exibição de filmes: Séries-->
+    <div class="carrosel-titulo-row">
+        <p class="carrosel-titulo">Séries</p>
+    </div>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="https://bit.ly/3vqrenP" target="_blank">
+                    <img class="box-filme" id="a2" src="./img/series/minS1.jpg">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3pwQhVx" target="_blank">
+                    <img class="box-filme" src="./img/series/minS2.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3B2TONq" target="_blank">
+                    <img class="box-filme" src="./img/series/minS3.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3DMZwoi" target="_blank">
+                    <img class="box-filme" src="./img/series/minS4.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/30ImuyH" target="_blank">
+                    <img class="box-filme" src="./img/series/minS5.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3vthdpK" target="_blank">
+                    <img class="box-filme" src="./img/series/minS6.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3AW9Vw5" target="_blank">
+                    <img class="box-filme" src="./img/series/minS7.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3AVO6Ng" target="_blank">
+                    <img class="box-filme" src="./img/series/minS8.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3nbwx6K" target="_blank">
+                    <img class="box-filme" src="./img/series/minS9.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3aVzXVH" target="_blank">
+                    <img class="box-filme" src="./img/series/minS10.jpg" alt="" srcset="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--Carrosel de exibição de filmes: Filmes-->
+    <div class="carrosel-titulo-row">
+        <p class="carrosel-titulo">Filmes</p>
+   </div>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="https://bit.ly/3C0E4eQ" target="_blank">
+                    <img class="box-filme" src="./img/filmes/minF1.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3aSz2VZ" target="_blank">
+                    <img class="box-filme" src="./img/filmes/minF2.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/2YXxgjD" target="_blank">
+                    <img class="box-filme" src="./img/filmes/minF3.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3piQATM" target="_blank">
+                    <img class="box-filme" src="./img/filmes/minF4.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3DZ3n1M" target="_blank">
+                    <img class="box-filme" src="./img/filmes/minF5.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3pfcgA3" target="_blank">
+                    <img class="box-filme" src="./img/filmes/minF6.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3pgQ20s" target="_blank">
+                    <img class="box-filme" src="./img/filmes/minF7.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3lS9Chw" target="_blank">
+                    <img class="box-filme" src="./img/filmes/minF8.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3C3YF2c" target="_blank">
+                    <img class="box-filme" src="./img/filmes/minF9.jpg" alt="" srcset="">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://bit.ly/3BSMsNw" target="_blank">
+                    <img class="box-filme" src="./img/filmes/minF10.jpg" alt="" srcset="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="redes-sociais">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram-square"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+        </div>
+        <div class="container-footer">
+            <div class="items-lista">
+                <ul>
+                    <li>Idiomas</li>
+                    <li>Imprenssa</li>
+                    <li>Privacidade</li>
+                    <li>Entre em contato</li>
+                </ul>
+            </div>
+            <div class="items-lista">
+                <ul>
+                    <li>Autodescrição</li>
+                    <li>Relação com investidores</li>
+                    <li>Avisos Legais</li>
+                </ul>
+            </div>
+            <div class="items-lista">
+                <ul>
+                    <li>Centro de ajuda</li>
+                    <li>Carreiras</li>
+                    <li>Preferências de cookies</li>
+                </ul>
+            </div>
+            <div class="items-lista">
+                <ul>
+                    <li>Cartão pré-pago</li>
+                    <li>Termos de uso</li>
+                    <li>Informações corporativas</li>
+                </ul>
+            </div>
+        </div>
+        <p>
+            &copy; 2021 - Desenvolvido por: Denis Willian de Moura Diniz :: Créditos: Prof. Felipe Aguiar - Digital Innovation One
+        </p>
+    </footer>
+</body>
+
+<script src="https://kit.fontawesome.com/187f8ec447.js" crossorigin="anonymous"></script>
+<script src="./js/owl/jquery.min.js"></script>
+<script src="./js/owl/owl.carousel.min.js"></script>
+<script src="./js/owl/setup.js"></script>
+</html>
